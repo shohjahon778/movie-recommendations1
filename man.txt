@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+    <h5>TOP ACTIONS</h5>
+    <h1>RECOMMENDED MOVIES</h1>
+    <div CLASS="cards">
+        <div class="card">
+            <iframe width="380" height="510"
+                    src="https://www.youtube.com/embed/WDkg3h8PCVU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+            <h2>AQUAMAN</h2>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi, asperiores aspernatur assumenda
+                dolores, dolorum, incidunt iste laborum maiores maxime minima non quos sit vero.</P>
+            <div class="rating">
+                <span>⭐⭐⭐⭐⭐ 12k reviews</span>
+            </div>
+            <button class="red">Download</button>
+        </div>
+        <div class="card">
+            <iframe width="380" height="510"
+                    src="https://www.youtube.com/embed/d9MyW72ELq0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <h2>AVATAR</h2>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi, asperiores aspernatur assumenda
+                dolores, dolorum, incidunt iste laborum maiores maxime minima non quos sit vero.</P>
+            <div class="rating">
+                <span>⭐⭐⭐⭐⭐ 12k reviews</span>
+            </div>
+            <button class="red">Download</button>
+        </div>
+        <div class="card">
+            <iframe width="380" height="510"
+                    src="https://www.youtube.com/embed/naQr0uTrH_s"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+            <h2>PIRATES OF CARIBBEAN</h2>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi, asperiores aspernatur assumenda
+                dolores, dolorum, incidunt iste laborum maiores maxime minima non quos sit vero.</P>
+            <div class="rating">
+                <span>⭐⭐⭐⭐⭐ 12k reviews</span>
+            </div>
+            <button class="red">Download</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+body{
+font-family: Arial;
+    margin: 0;
+    color: white;
+    background-color: #000F26;
+}
+.container{
+    width: 1200px;
+    margin: 40px auto;
+padding: 0 20px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    width: 100%;
+    background-color: #3a5d93;
+padding: 20px;
+    border-radius: 10px;
+    max-width: 380px;
+}
+.red{
+    border: 2px solid red;
+    background-color: #3a5d93;
+    border-radius: 5px;
+}
